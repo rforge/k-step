@@ -1,9 +1,11 @@
 Package: kmeansstep
 Type: Package
-Title: stepwise k-means cluster modelselection using AIC or BIC and the Ellbow-Method
-Version: 1.0
+Title: stepwise k-means cluster model selection
+Version: 1.0.1
 Date: 2015-05-09
 Author: Markus Mayer
 Maintainer: Markus Mayer <markus.mayer@wu.ac.at>
-Description: The package is a simple collection of functions to allow stepwise k-means cluster modelselection using AIC or BIC and the Ellbow-Method as described: http://sherrytowers.com/2013/10/24/k-means-clustering/
-License: GPL-2
+Depends: R (>= 3.1.1)
+Description: A simple collection of functions to allow stepwise k-means cluster modelselection using AIC or BIC and the Ellbow-Method as described: http://sherrytowers.com/2013/10/24/k-means-clustering/
+License: AGPL-3
+Suggests: 
